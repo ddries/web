@@ -1,0 +1,9 @@
+/*
+ * Styles for the about page of the website
+*/
+
+div#about {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}

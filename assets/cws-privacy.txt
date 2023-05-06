@@ -1,0 +1,45 @@
+dries
+driescode.dev CWS Pricacy Policy
+4 May 2023
+Last edited: 6 May 2023
+================
+
+
+> driescode.dev CWS Privacy Policy <
+
+
+================
+Introduction
+================
+
+This privacy policy aims to describe how data is collected in Chrome Web Store software (extensions).
+
+
+============================
+Accepting this agreement
+============================
+
+This document is accepted by the end user [1] by making use of the software [2].
+
+[1] = the `end user` is whom the software is targeted.
+[2] = using the extension.
+
+
+========================
+About `mal-animeflv`
+========================
+
+The extension `mal-animeflv` does not collect or handle any user data.
+
+
+===================
+About `atenear`
+===================
+
+The extension `atenear` does collect volatile, temporary data from the end user Atenea session (temporary session tokens). It is not stored persistently.
+
+Atenea temporary session tokens cannot uniquely identify the end user.
+
+Atenea temporary session tokens can be used to perform actions in Atenea on behalf of the end user. This is used so as to refresh the current end user Atenea session programmatically.
+
+Given the volatile nature of this data, the end user can perform a deletion of it by closing the Atenea page or uninstalling `atenear` extension.

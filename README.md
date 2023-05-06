@@ -1,1 +1,1 @@
-# web
+This is the frontend of my own website, it is built using vanilla html/css/js just for fun. In a world of constant deception and absolute incompetence, one shall try to avoid the common path, diverge to the differences and shine by the unique flavor of clairvoyance.

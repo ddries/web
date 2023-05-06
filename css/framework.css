@@ -1,0 +1,158 @@
+/*
+ * Common styles used in multiple pages of the website
+*/
+
+@font-face {
+    font-family: 'vga';
+    src: url('../font/PxPlus_IBM_VGA8.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'pc98';
+    src: url('../font/pc-9800.ttf') format('truetype');
+    font-weight: normal;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #555;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #8992E9;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(102, 111, 240);
+}
+
+body {
+    background-color: #181818;
+    color: white;
+    
+    margin: 0;
+    font-family: 'vga';
+
+    background: url('../bg.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1 {
+    font-weight: initial;
+    padding: 0;
+    font-size: 2.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: #8992E9;
+}
+
+a:hover, a:active {
+    color: #bfc3f0;
+    background-color: #3343ec;
+}
+
+span.link-disabled {
+    color: #7c7c7c;
+    text-decoration: line-through;
+}
+
+span.link-disabled:hover {
+    background-color: initial;
+    color: #6d6d6d;
+    cursor: not-allowed
+}
+
+ul {
+    list-style-type: "➝ ";
+    display: inline-block;
+    list-style-position: inside;
+}
+
+.bordered_container {
+    border: 8px solid #1a1c24;
+    background-color: #252733;
+}
+
+.text_container {
+    line-height: 1.5;
+    padding: 1.25rem;
+    text-align: justify;
+}
+
+.titled_container {
+    width: 100%;
+}
+
+.titled_container .c_title {
+    background-color: #464b77;
+    border: 8px solid #1a1c24;
+    border-bottom: none;
+    text-align: center;
+    padding: 0.15rem;
+    padding-top: 0.25rem;
+}
+
+.titled_container .c_title span {
+    margin-left: 1.1rem;
+    font-size: 1.3rem;
+}
+
+.hightlighted_text {
+    text-transform: uppercase;
+    background-color: #3343ec;
+}
+
+.hightlighted_text2 {
+    background-color: #3343ec;
+}
+
+div#container {
+    margin: auto;
+    max-width: 850px;
+}
+
+div#header {
+    display: flex;
+    justify-content: center;
+}
+
+div#header > h1 {
+    text-shadow: 0.6vh 0.6vh #555;
+}
+
+div#navigation {
+    border-top: none;
+    margin-bottom: 5px;
+    
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+div#navigation > a.selected {
+    color: #8992E9;
+    text-shadow: 0.25vh 0.25vh #555;
+}
+
+div#navigation > a {
+    color: inherit;
+}
+
+div#navigation > a:hover, a:active {
+    background-color: #3343ec;
+}
+
+div#footer {
+    margin-top: 1rem;
+    text-align: center;
+    padding: 0.5rem;
+}

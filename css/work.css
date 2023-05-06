@@ -1,0 +1,9 @@
+/*
+ * Styles for the work page of the website
+*/
+
+div#work {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}

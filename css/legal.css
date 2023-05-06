@@ -1,0 +1,9 @@
+/*
+ * Styles for the legal page of the website
+*/
+
+div#legal {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
